@@ -15,5 +15,5 @@ npm run dev
 ## Déploiement manuel (optionnel)
 ```bash
 npm run build
-# Le dossier dist/ est prêt à être servi
+
 ```
