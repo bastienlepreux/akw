@@ -16,9 +16,8 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: 'npm'
-      - run: npm install          # pas de lockfile → npm install (pas npm ci)
+          node-version: 20        # <-- pas de "cache: 'npm'" ici
+      - run: npm install          # <-- pas npm ci
       - run: npm run build
       - run: cp dist/index.html dist/404.html
       - uses: actions/upload-pages-artifact@v3
