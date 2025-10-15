@@ -95,7 +95,7 @@ const venteOffers = [
       { date: '2025-10-02', prix: 215000 },
       { date: '2025-10-10', prix: 210000 },
     ],
-    details: 'Avec balcon, 4e étage ascenseur, loué jusqu\\'à juin 2026.',
+    details: "Avec balcon, 4e étage ascenseur, loué jusqu'à juin 2026.",
   },
   {
     id: 'ven-3',
